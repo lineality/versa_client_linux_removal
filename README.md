@@ -16,18 +16,17 @@ sudo apt purge versa-sase-client
 ```text
 versa-sase-client-7.4.8.deb
 ```
-
-### TOPS
+- from output
 ```terminal
 ... VersaSASEClient 
 ```
 
 
-## inspect
+## inspect, run in cli
 ```bash
 systemctl list-unit-files | grep -i versa
 ```
-
+- example output
 ```output
 versa-sase.service                                    enabled         enabled
 ```
