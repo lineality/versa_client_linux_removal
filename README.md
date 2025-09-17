@@ -26,32 +26,32 @@ versa-sase-client-7.4.8.deb
 ```bash
 systemctl list-unit-files | grep -i versa
 ```
-- example output
+- example output:
 ```output
 versa-sase.service                                    enabled         enabled
 ```
 
-## find exact package name
+## find package name
 ```bash
 apt list --installed | grep -i versa
 ```
-
+- example output:
 ```output
 versa-sase-client/now 7.4.8-0 amd64 [installed,local]
 ```
 
-
+## see versa package names:
 ```bash
 dpkg -l | grep -i versa
 ```
-
+- example output:
 ```output
 versa-sase-client/now 7.4.8-0 amd64 [installed,local]
 ```
 ```bash
 dpkg -l | grep -i versa
 ```
-
+- example output:
 ```output
 ii  libu2f-udev                                   1.1.10-3build3                           all          Universal 2nd Factor (U2F) — transitional package
 ii  libuchardet0:amd64                            0.0.8-1build1                            amd64        universal charset detection library - shared library
