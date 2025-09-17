@@ -13,7 +13,7 @@ sudo apt purge versa-sase-client
 
 
 ### installed with a file such as:
-```file
+```text
 versa-sase-client-7.4.8.deb
 ```
 
