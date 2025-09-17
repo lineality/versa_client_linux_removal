@@ -63,3 +63,13 @@ ii  uuid-dev:amd64                                2.39.3-9ubuntu6.3             
 ii  uuid-runtime                                  2.39.3-9ubuntu6.3                        amd64        runtime components for the Universally Unique ID library
 ii  versa-sase-client                             7.4.8-0                                  amd64        Versa Secure Access is a resilient and reliable “work-from-home” solution and is the industry’s first to deliver SASE services and private connectivity for employees who are remote or working from home.
 ```
+
+# Uninstall package: With correct package name, remove it: purge will also remove configuration files.
+
+```Bash
+sudo apt purge <package-name>
+```
+
+- For example:
+```bash
+sudo apt purge versa-sase-client
